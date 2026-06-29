@@ -67,7 +67,7 @@ int main(){
 	system("cls");
 	
 	cout<<"Las personas registradas son: "<<endl;
-	cout<<"--------------------------------"<<endl;
+	cout<<"\n--------------------------------"<<endl;
 	for(int i=0;i<n;i++){
 		cout<<"Persona "<<i+1<<endl;
 		cout<<"--------------------------------"<<endl;
