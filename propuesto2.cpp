@@ -13,11 +13,10 @@ int main(){
 	Persona personas[100];
 	cout<<"Ingrese la cantidad de personas: ";
 	cin>>n;
-	cout<<endl;
 	cin.ignore();
 	
 	for(int i=0;i<n;i++){
-		cout<<"Persona "<<i+1<<endl;
+		cout<<"\nPersona "<<i+1<<endl;
 		cout<<"Nombres: ";
 		getline(cin, personas[i].nombres);
 		cout<<"DNI: ";
@@ -27,7 +26,14 @@ int main(){
 		cin.ignore();
 	}
 	
-	
+	for(int i=0;i<n;i++){
+		if(personas[i].edad>50){
+			cout<<"\nPersona "<<i+1<<endl;
+			cout<<"Nombres: "<<personas[i].nombres<<endl;
+			cout<<"DNI: "<<personas[i].DNI<<endl;
+			cout<<"Edad: "<<personas[i].edad<<endl;
+		}
+	}
 	
 	return 0;
 }
