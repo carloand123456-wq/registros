@@ -47,6 +47,16 @@ int main(){
 		}
 	}
 	
+	cout<<"El empleado con mayor sueldo es: "<<endl;
+	cout<<"Empleado "<<endl;
+	cout<<"Numero: "<<E[pos].numero<<endl;
+	cout<<"Nombres: "<<E[pos].nombres<<endl;
+	
+	for(int i =0;i<n;i++){
+		if(anual[i]>100){
+			E[i].salario = E[i].salario * 1.1;
+		}
+	}
 	
 	
 	
