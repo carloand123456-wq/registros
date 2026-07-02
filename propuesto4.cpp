@@ -56,6 +56,8 @@ int main(){
 			}
 		}
 	}
+	system("pause");
+	system("cls");
 	
 	cout<<"El atleta de "<<pb<<" con mas medallas es: "<<endl;
 	cout<<"----------------------------------------"<<endl;
