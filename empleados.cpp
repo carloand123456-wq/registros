@@ -58,7 +58,17 @@ int main(){
 		}
 	}
 	
-	
+	cout<<"La nueva lista de empleados es: "<<endl;
+	for(int i=0;i<n;i++){
+		cout<<"Empleado "<<endl;
+		cout<<"Numero: "<<E[i].numero<<endl;
+		cout<<"Nombres: "<<E[i].nombres<<endl;
+		cout<<"Ventas: "<<endl;
+		for(int j=0;j<12;j++){
+			cout<<"La venta del mes "<<j+1<<" es: "<<E[i].ventas[j]<<endl;
+		}
+		cout<<"Salario: "<<E[i].salario<<endl;
+	}
 	
 	return 0;
 }
