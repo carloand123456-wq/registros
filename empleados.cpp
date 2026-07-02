@@ -38,6 +38,16 @@ int main(){
 		}
 	}
 	
+	int pos;
+	max = anual[1];
+	for(int i=1;i<n;i++){
+		if(anual[i]>max){
+			max = anual[i];
+			pos = i;
+		}
+	}
+	
+	
 	
 	
 	return 0;
