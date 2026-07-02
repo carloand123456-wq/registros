@@ -32,6 +32,12 @@ int main(){
 		cin>>E[i].salario;
 	}
 	
+	for(int i=0;i<n;i++){
+		for(int j=0;j<12;j++){
+			anual[i]= anual[i] + E[i].ventas[j];
+		}
+	}
+	
 	
 	
 	return 0;
